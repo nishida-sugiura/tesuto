@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>coco medaka 35</title>
+
+
+    <meta name="description" content="oder">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+
+
+  <link rel="stylesheet" href="css/style_modal.css">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style_spinner.css">
+
+
+    <!--Bootstrap----20220705-1943--->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+</head>
+<body>
+
+<div id="main">
+
+<section>
+
+<h2>予約注文</h2>
+	
+<h1>※ご希望のメダカの匹数と受取希望日を選択し、<br>
+最後に確定ボタンを押してください。</h1>
+	
+<form>
+<div class="list">
+
+<div class="box">
+<figure><img id="image101" src="images/medaka1.jpg" alt=""></figure>
+<p class="top-left"  style="font-size:3.5vw">200円</p>
+</div>
+
+<h4 style="font-size:3vw">楊貴妃</h4>
+<form id="form1">
+<input type="hidden" name="breed1" value="楊貴妃">
+
+<p>
+<select class="select1" name="qty1" style="font-size:3.5vw" id="slc1">
+<option value="">匹数を選択</option>
+<option value="1">１匹</option>
+<option value="2">２匹</option>
+<option value="3">３匹</option>
+<option value="4">４匹</option>
+<option value="5">５匹</option>
+<option value="6">６匹</option>
+<option value="7">７匹</option>
+<option value="8">８匹</option>
+<option value="9">９匹</option>
+</select>
+</p>
+<h1 style="font-size:3vw">在庫数：<input type="text" name="medaka1" size="2"></h1>
+</form>
+
+</div>
+
+<div class="list">
+<div class="box">
+<figure><img id="image102" src="images/medaka2.jpg" alt=""></figure>
+<p class="top-left"  style="font-size:3.5vw">200円</p>
+</div>
+	
+<h4 style="font-size:3vw">幹之</h4>
+<form id="form2">
+<input type="hidden" name="breed2" value="幹之">
+
+<p>
+<select class="select2" name="qty2" style="font-size:3.5vw" id="slc2">
+<option value="">匹数を選択</option>
+<option value="1">１匹</option>
+<option value="2">２匹</option>
+<option value="3">３匹</option>
+<option value="4">４匹</option>
+<option value="5">５匹</option>
+<option value="6">６匹</option>
+<option value="7">７匹</option>
+<option value="8">８匹</option>
+<option value="9">９匹</option>
+</select>
+</p>
+<h1 style="font-size:3vw">在庫数：<input type="text" name="medaka2"  size="2"></h1>
+	
+</form>
+</div>
+
+<div class="list">
+<div class="box">
+<figure><img id="image103" src="images/medaka3.jpg" alt=""></figure>
+<p class="top-left"  style="font-size:3.5vw">400円</p>
+</div>
+<h4 style="font-size:3vw">オロチ</h4>
+<form id="form3">
+<input type="hidden" name="breed3" value="オロチ">
+<p>
+<select class="select3" name="qty3" style="font-size:3.5vw" id="slc3">
+<option value="">匹数を選択</option>
+<option value="1">１匹</option>
+<option value="2">２匹</option>
+<option value="3">３匹</option>
+<option value="4">４匹</option>
+<option value="5">５匹</option>
+<option value="6">６匹</option>
+<option value="7">７匹</option>
+<option value="8">８匹</option>
+<option value="9">９匹</option>
+</select>
+</p>
+<h1 style="font-size:3vw">在庫数：<input type="text" name="medaka3"  size="2"></h1>
+	
+	
+</form>
+</div>
+
+<div class="list">
+
+<div class="box">
+<figure><img id="image104" src="images/medaka4.jpg" alt=""></figure>
+<p class="top-left"  style="font-size:3.5vw">600円</p>
+</div>
+<h4 style="font-size:3vw">りんね</h4>
+<form id="form4">
+<input type="hidden" name="breed4" value="りんね">
+
+<p>
+<select class="select4" name="qty4" style="font-size:3.5vw" id="slc4">
+<option value="">匹数を選択</option>
+<option value="1">１匹</option>
+<option value="2">２匹</option>
+<option value="3">３匹</option>
+<option value="4">４匹</option>
+<option value="5">５匹</option>
+<option value="6">６匹</option>
+<option value="7">７匹</option>
+<option value="8">８匹</option>
+<option value="9">９匹</option>
+</select>
+</p>
+<h1 style="font-size:3vw">在庫数：<input type="text" name="medaka4"  size="2"></h1>
+	
+</form>
+</div>
+
+<div class="list">
+
+<div class="box">
+<figure><img id="image105" src="images/medaka5.jpg" alt=""></figure>
+<p class="top-left"  style="font-size:3.5vw">800円</p>
+</div>
+<h4 style="font-size:3vw">月弓</h4>
+<form id="form5">
+<input type="hidden" name="breed5" value="月弓">
+
+<p>
+<select class="select5" name="qty5" style="font-size:3.5vw" id="slc5">
+<option value="">匹数を選択</option>
+<option value="1">１匹</option>
+<option value="2">２匹</option>
+<option value="3">３匹</option>
+<option value="4">４匹</option>
+<option value="5">５匹</option>
+<option value="6">６匹</option>
+<option value="7">７匹</option>
+<option value="8">８匹</option>
+<option value="9">９匹</option>
+</select>
+</p>
+<h1 style="font-size:3vw">在庫数：<input type="text" name="medaka5"  size="2"></h1>
+	
+</form>
+</div>
+
+<div class="list">
+<!-----a href="medical.html"----->
+<div class="box">
+<figure><img id="image106" src="images/medaka6.jpg" alt=""></figure>
+<p class="top-left"  style="font-size:3.5vw">1,000円</p>
+</div>
+<h4 style="font-size:3vw">夜桜</h4>
+<form id="form6">
+<input type="hidden" name="breed6" value="夜桜">
+
+<p>
+<select class="select6" name="qty6" style="font-size:3.5vw" id="slc6">
+<option value="">匹数を選択</option>
+<option value="1">１匹</option>
+<option value="2">２匹</option>
+<option value="3">３匹</option>
+<option value="4">４匹</option>
+<option value="5">５匹</option>
+<option value="6">６匹</option>
+<option value="7">７匹</option>
+<option value="8">８匹</option>
+<option value="9">９匹</option>
+</select>
+</p>
+<h1 style="font-size:3vw">在庫数：<input type="text" name="medaka6"  size="2"></h1>	
+	
+	
+
+	
+	
+	
+	
+</form>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+        <script src="spinner.js"></script>
+<script src="style_modal.js"></script>
+            </div>
+        </div>
+      </div>
+
+
+
+
+<form>
+<h1 class="kesu">・・・・・・・・・・</h1>
+	
+<h1>↓　受取希望日を選択　↓</h1>
+
+<h1><div><input type="date" name="daytime" class="button" id="tomorrow" style="font-size:8vw" required></div></h1>
+<h1></h1>
+
+
+<ul>
+<li>
+<!-- モーダル（ポップアップ）ボタン -->
+
+          <p class="js_modalBtnWrap"><h10 class="kn"><input type="submit" value="確定する"  class="js_modalBtnCont" data-modal-btn="modal01"></h10>
+</a></p>
+          </li>
+        </ul>
+    </main>
+</div>
+
+        <!-- モーダル（ポップアップ）の内容 -->
+        <div class="js_modalWrap" data-modal-cont="modal01">
+          <div class="js_modalBG"></div>
+          <div class="js_modalContInner">
+            <span class="js_modalClose"></span>
+
+      <section id="bicycle" class="wrapper">
+        <h2 class="section-title">予約注文を確定してよろしいですか？</h2>
+<h5><div><input type="submit" value="確定するz" class="button" ></div></h5> 
+      </section>
+</form>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+        <script src="spinner.js"></script>
+<script src="style_modal.js"></script>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+<script>
+window.addEventListener('DOMContentLoaded', ()=>{
+  const d=new Date();
+  d.setDate(d.getDate()+2);
+  tomorrow.setAttribute("min",d.toISOString().substr(0,10));
+
+  const d1=new Date();
+  d1.setDate(d1.getDate()+2+28);
+  tomorrow.setAttribute("max",d1.toISOString().substr(0,10));
+
+});
+
+    var today = new Date();
+    today.setDate(today.getDate());
+    var yyyy = today.getFullYear();
+    var mm = ("0"+(today.getMonth()+1)).slice(-2);
+    var dd = ("0"+today.getDate()).slice(-2);
+    document.getElementById("tomorrow").value=yyyy+'-'+mm+'-'+dd;
+
+</script>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+
+    <script src="index_modal.js"></script>
+
+<script src="style_modal.js"></script>
+
+
+ <script src="spinner.js"></script>
+ <script src="index.js"></script>
+ <script src="liff.js"></script>
+	
+	
+</body>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<script>
+    //GASのAPIのURL（各自変更してください。）
+    //const endpoint = "https://script.google.com/macros/s/AKfycbyFrMOJteKXUW0tGmBHHjRM6HwGfVfR-fT4jglnvcM3TBp4j6Fh2bE9qf88VBAvYB5C/exec";
+    const endpoint = "https://script.google.com/macros/s/AKfycby0yTc3ROvXI0_9Q8LjP0ZrxI4annkAz1a1LX7ur1DG338reIMqc1WJBv9q9HCqMdHQLg/exec";
+     
+        //APIを使って非同期データを取得する
+        fetch(endpoint)
+        .then(response => response.json())
+        /*成功した処理*/
+        .then(data => {
+            //JSONから配列に変換
+            const object = data;
+            //inputタグそれぞれに取得したデータを設定
+            $('input').each(function (index, element) {
+                if (object[0][$(element).attr('name')]>0) {
+                    $(element).val([object[0][$(element).attr('name')]]);
+			
+if(data[0].medaka1<=0){LinkClick(0)
+var selectbox = $('select[id=slc1]');
+selectbox.children('').remove();}
+
+if(data[0].medaka2 <=0){LinkClick(1)
+var selectbox = $('select[id=slc2]');
+selectbox.children('').remove();}
+
+if(data[0].medaka3 <=0){LinkClick(2)
+var selectbox = $('select[id=slc3]');
+selectbox.children('').remove();}
+
+if(data[0].medaka4 <=0){LinkClick(3)
+var selectbox = $('select[id=slc4]');
+selectbox.children('').remove();}
+
+if(data[0].medaka5 <=0){LinkClick(4)
+var selectbox = $('select[id=slc5]');
+selectbox.children('').remove();}
+
+if(data[0].medaka6 <=0){LinkClick(5)
+var selectbox = $('select[id=slc6]');
+selectbox.children('').remove();}			
+			
+			
+			
+                }
+            });
+        });
+</script>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<script type="text/javascript">
+     
+
+function LinkClick(param) {
+
+     var elem1 = document.getElementById("image101");
+     var elem2 = document.getElementById("image102");
+     var elem3 = document.getElementById("image103");
+     var elem4 = document.getElementById("image104");
+     var elem5 = document.getElementById("image105");
+     var elem6 = document.getElementById("image106");
+
+      switch (param) {
+
+        case 0:
+          elem1.src =  "images/soldout.jpg";
+          break;
+
+        case 1:
+          elem2.src =  "images/soldout.jpg";
+          break;
+
+        case 2:
+          elem3.src =  "images/soldout.jpg";
+          break;
+
+        case 3:
+          elem4.src =  "images/soldout.jpg";
+          break;
+
+        case 4:
+          elem5.src =  "images/soldout.jpg";
+          break;
+
+        case 5:
+          elem6.src =  "images/soldout.jpg";
+          break;
+      }}
+
+  </script>
+	
+	
+	
+	
+	
+</html>
